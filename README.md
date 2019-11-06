@@ -1,5 +1,7 @@
 # Image2LaTeX
 
+English | [中文](./README-ZH.md)
+
 [![CI Status](https://github.com/blaisewang/img2latex-mathpix/workflows/CI/badge.svg)](https://github.com/blaisewang/img2latex-mathpix/actions)
 [![Releases](https://img.shields.io/github/v/release/blaisewang/img2latex-mathpix?include_prereleases)](https://github.com/blaisewang/img2latex-mathpix/releases)
 [![License](https://img.shields.io/github/license/blaisewang/img2latex-mathpix)](https://github.com/blaisewang/img2latex-mathpix/blob/master/LICENSE)
@@ -17,7 +19,7 @@ See the [features](https://mathpix.com/ocr#features) section on MathpixOCR websi
 
 ## Requirements
 
-- Your API keys in your [MathpixOCR dashboard](https://dashboard.mathpix.com/) (different from the Mathpix account used in the Snip app)
+- Your API Keys in your [MathpixOCR dashboard](https://dashboard.mathpix.com/) (different from the Mathpix account used in the Snip app)
 
 - JDK 11 or higher version ([OpenJDK](https://openjdk.java.net/) is highly recommended) if you plan to use `Image2LaTeX-x.x.x.jar`
 
@@ -30,20 +32,20 @@ APP_ID=YOUR_APP_ID
 APP_KEY=YOUR_APP_KEY
 ```
 
-Replace `YOUR_APP_ID` and `YOUR_APP_KEY` with your API keys.
+Replace `YOUR_APP_ID` and `YOUR_APP_KEY` with your API Keys.
 
 Put the `config` file in the same directory location as the executable app.
-For example, if you are using native build version `Image2LaTeX-x.x.x-OS.zip`, place it to extracted location `Image2LaTeX-OS/bin/` .
+For example, if you are using native build version `Image2LaTeX-x.x.x-os.zip`, place it to extracted location `Image2LaTeX-os/bin/` .
 
 Otherwise, this app will create a template `config` in the aforementioned location at the first launch.
 Replace your credentials before the first request is submitted.
 
 **Do not share your `config` file with others.**
-This app will also not send your API keys to others except for MathpixOCR API server (see [OCRRequest.java](https://github.com/blaisewang/img2latex-mathpix/blob/master/src/main/java/OCRRequest.java) to learn how your API keys are used).
+This app will also not send your API Keys to others except for MathpixOCR API server (see [OCRRequest.java](https://github.com/blaisewang/img2latex-mathpix/blob/master/src/main/java/OCRRequest.java) to learn how your API Keys are used).
 
 ## Usage
 
-If you downloaded `Image2LaTeX-x.x.x-OS.zip`, run this app with double-clicking the executable `Image2LaTeX` (or `Image2LaTeX.bat` on Windows) at `Image2LaTeX-OS/bin/` or with:
+If you downloaded `Image2LaTeX-x.x.x-os.zip`, run this app with double-clicking the executable `Image2LaTeX` (or `Image2LaTeX.bat` on Windows) at `Image2LaTeX-os/bin/` or with:
 
 ```
 ./Image2LaTeX
@@ -74,7 +76,7 @@ At that time, I will drop the release of `.jar` and `.zip` files and no one (exc
 
 #### Why two types of the application released? Which one I should download?
 
-The `Image2LaTeX-x.x.x-OS.zip` is built with the [Badass Runtime Plugin](https://badass-runtime-plugin.beryx.org/releases/latest/) which has a huge size.
+The `Image2LaTeX-x.x.x-os.zip` is built with the [Badass Runtime Plugin](https://badass-runtime-plugin.beryx.org/releases/latest/) which has a huge size.
 You don't need to have JDK 11 installed for running this version.
 
 Considering the people using similar apps, I assumed that a large percentage of users should have JDK installed.
@@ -83,13 +85,13 @@ Plus, the way to execute a `.bat` file on Windows OS is pretty ugly.
 
 #### Any plans?
 
-- Add a preference panel for user settings, e.g. set API keys in the app, not in the `config` file.
+- Add a preference panel for user settings, e.g. set API Keys in the app, not in the `config` file.
 - Add system tray icon support for some Linux distributions.
 - Implement cross-platform global keyboard listener to remove the `Submit` button.
 
 ## Issues
 
-Please first refer to the official [OCR API Docs](https://docs.mathpix.com/#error-id-types) about error types if an error dialogue is displayed.
+Please first refer to the official [API Docs](https://docs.mathpix.com/#error-id-types) about error types if an error dialogue is displayed.
 
 #### Still have problems :thinking: ?
 
