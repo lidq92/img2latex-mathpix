@@ -10,8 +10,8 @@ English | [中文](./README-ZH.md)
 It gives you the first 50 snips for free every single month.
 With the help of [MathpixOCR](https://mathpix.com/ocr/) and this supplementary app, you can now make up to 1000 OCR requests per month for free.
 
-[Image2LaTeX](https://github.com/blaisewang/img2latex-mathpix/) is a personal side project that keeps only core functions of the [Snip](https://mathpix.com/) such as convert images to certain LaTeX equation formats and OCR.
-For other advanced functions and unlimited snips, subscribe to the [Snip](https://mathpix.com/) for $4.99 per month.
+[Image2LaTeX](https://github.com/blaisewang/img2latex-mathpix/) is a personal side project that keeps only core functions of the Snip such as convert images to certain LaTeX equation formats and OCR.
+For other advanced functions and unlimited snips, subscribe to the Snip for $4.99 per month.
 
 ## Features
 
@@ -69,12 +69,12 @@ See [demo](#Demo) section below.
 
 ## FQA
 
-#### No native self-contained executable application or `.exe` provided?
+### No native self-contained executable application or `.exe` provided?
 
 Not yet. But, with the GA release of Java 14 in 2020, [jpackage](https://jdk.java.net/jpackage/) should be available for packaging self-contained JavaFX application.
 At that time, I will drop the release of `.jar` and `.zip` files and no one (except me) needs to install JDK anymore.
 
-#### Why two types of the application released? Which one I should download?
+### Why two types of the application released? Which one I should download?
 
 The `Image2LaTeX-x.x.x-os.zip` is built with the [Badass Runtime Plugin](https://badass-runtime-plugin.beryx.org/releases/latest/) which has a huge size.
 You don't need to have JDK 11 installed for running this version.
@@ -83,7 +83,7 @@ Considering the people using similar apps, I assumed that a large percentage of 
 Therefore, a smaller size Fat JAR `Image2LaTeX-x.x.x.jar` has also released.
 Plus, the way to execute a `.bat` file on Windows OS is pretty ugly.
 
-#### Any plans?
+### Any plans?
 
 - Add a preference panel for user settings, e.g. set API Keys in the app, not in the `config` file.
 - Add system tray icon support for some Linux distributions.
@@ -93,7 +93,7 @@ Plus, the way to execute a `.bat` file on Windows OS is pretty ugly.
 
 Please first refer to the official [API Docs](https://docs.mathpix.com/#error-id-types) about error types if an error dialogue is displayed.
 
-#### Still have problems :thinking: ?
+### Still have problems :thinking: ?
 
 Welcome to open an [issue](https://github.com/blaisewang/img2latex-mathpix/issues) with the [bug](https://github.com/blaisewang/img2latex-mathpix/labels/bug) or [question](https://github.com/blaisewang/img2latex-mathpix/labels/question) label, but the time to fix non-vital bugs may not be guaranteed.
 

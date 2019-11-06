@@ -11,8 +11,8 @@
 
 在 [MathpixOCR](https://mathpix.com/ocr/) 以及 [Image2LaTeX](https://github.com/blaisewang/img2latex-mathpix/) 这款补充应用的帮助下，你可以每月免费进行 1000 次的 OCR 识别。
 
-[Image2LaTeX](https://github.com/blaisewang/img2latex-mathpix/) 是空闲时间的个人项目，仅保留了 [Snip](https://mathpix.com/) 的核心功能——将图片转换为特定 LaTeX 格式的公式或文本。
-如果需要进阶功能，请每月 4.99 美元订阅 [Snip](https://mathpix.com/) 。
+Image2LaTeX 是空闲时间的个人项目，仅保留了 Snip 的核心功能——将图片转换为特定 LaTeX 格式的公式或文本。
+如果需要进阶功能，请每月 4.99 美元订阅 Snip 。
 
 ## 功能
 
