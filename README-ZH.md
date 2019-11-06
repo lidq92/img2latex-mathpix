@@ -11,7 +11,7 @@
 
 在 [MathpixOCR](https://mathpix.com/ocr/) 以及 [Image2LaTeX](https://github.com/blaisewang/img2latex-mathpix/) 这款补充应用的帮助下，你可以每月免费进行 1000 次的 OCR 识别。
 
-[Image2LaTeX](https://github.com/blaisewang/img2latex-mathpix/) 是空闲时间的个人项目，仅保留了 [Snip](https://mathpix.com/) 的核心功能——将图片转换为特定 LaTeX 格式的公式或文本。
+[Image2LaTeX](https://github.com/blaisewang/img2latex-mathpix/) 是空闲时间的个人项目，仅保留了 [Snip](https://mathpix.com/) 的核心功能——将图片转换为特定 LaTeX 格式的公式或文本。
 如果需要进阶功能，请每月 4.99 美元订阅 [Snip](https://mathpix.com/) 。
 
 ## 功能
@@ -88,7 +88,7 @@ java -jar Image2LaTeX-x.x.x.jar
 
 ### 还有问题 :thinking: ？
 
-欢迎提出使用 [bug](https://github.com/blaisewang/img2latex-mathpix/labels/bug) 或者 [question](https://github.com/blaisewang/img2latex-mathpix/labels/question) 标签 提出 [issue](https://github.com/blaisewang/img2latex-mathpix/issues) ， 但是非紧急问题的修复时间无法保证.
+欢迎使用 [bug](https://github.com/blaisewang/img2latex-mathpix/labels/bug) 或者 [question](https://github.com/blaisewang/img2latex-mathpix/labels/question) 标签提出 [issue](https://github.com/blaisewang/img2latex-mathpix/issues) ， 但是非紧急问题的修复时间无法保证.
 
 ## 贡献
 
